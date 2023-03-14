@@ -1,0 +1,27 @@
+.list {
+  list-style: none;
+  width: 300px;
+  border: 1px solid rgb(13, 13, 13);
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 2px 0px rgb(255 255 255 / 50%),
+    7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
+  background-color: rgb(154, 194, 236);
+}
+
+.list_item {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px;
+}
+.list_item:hover {
+  color: aliceblue;
+  cursor: pointer;
+}
+.list_item:nth-child(n + 4) {
+  font-weight: 700;
+  color: rgba(48, 6, 119, 0.419);
+}
+.list_item:nth-child(n + 4):hover {
+  color: aliceblue;
+  cursor: pointer;
+}
